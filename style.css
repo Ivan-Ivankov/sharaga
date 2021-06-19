@@ -22,6 +22,7 @@ header {
     background-position: bottom;
     background-size: cover;
 }
+
 .heading {
     background-color: rgb(250, 169, 103);
 }
@@ -83,18 +84,6 @@ nav li {
     grid-column-gap: 10px;
 }
 
-.grid3 {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-column-gap: 10px;
-}
-
-.grid4 {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-column-gap: 10px;
-}
-
 .end {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -114,6 +103,7 @@ nav li {
     max-width: 100%;
     min-height: 100%;
     box-shadow: 3px 3px 3px #000;
+    border-radius: 5%;
 }
 
 .container_footer {
@@ -121,6 +111,7 @@ nav li {
     max-width: 1280px;
     padding: 15px;
     margin: auto;
+    font-variant-position: super;
 }
 
 .container_footer img {
